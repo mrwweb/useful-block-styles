@@ -3,11 +3,12 @@
  */
 .is-style-useful-multicolumn {
 	padding-left: 0 !important;
-	column-width: 15em !important;
-	column-gap: 2em !important;
+	column-width: 9em !important;
+	column-gap: 1em !important;
 }
 .is-style-useful-multicolumn li {
 	padding-left: 0 !important;
+	margin-left: 0 !important;
 }
 
 /**
@@ -17,6 +18,10 @@
 .is-style-useful-no-markers li {
 	padding-left: 0 !important;
 	list-style: none !important;
+}
+
+.is-style-useful-no-markers li {
+	margin-left: 0 !important;
 }
 
 /**

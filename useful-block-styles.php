@@ -63,9 +63,9 @@ function front_end_assets() {
 
 	wp_enqueue_style(
 		'useful-block-styles',
-		plugins_url( 'css/useful-block-styles.css' ),
+		plugin_dir_url(__FILE__) . 'css/useful-block-styles.css',
 		[],
-		filemtime( plugin_dir_path( 'css/useful-block-styles.css' ) ),
+		filemtime( plugin_dir_path(__FILE__) . 'css/useful-block-styles.css' ),
 	);
 
 }
@@ -78,9 +78,9 @@ function block_editor_assets() {
 
 	wp_enqueue_style(
 		'useful-block-styles-editor-styles',
-		get_theme_file_uri( 'css/useful-block-styles-editor-styles.css' ),
+		plugin_dir_url(__FILE__) . 'css/useful-block-styles-editor-styles.css',
 		[],
-		filemtime( plugin_dir_path( 'css/useful-block-styles-editor-styles.css' ) )
+		filemtime( plugin_dir_path(__FILE__) . 'css/useful-block-styles-editor-styles.css' )
 	);
 
 }
