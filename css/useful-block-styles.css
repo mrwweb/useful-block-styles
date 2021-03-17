@@ -1,0 +1,30 @@
+/**
+ * Multicolumn List Block
+ */
+.is-style-useful-multicolumn {
+	padding-left: 0 !important;
+	column-width: 15em !important;
+	column-gap: 2em !important;
+}
+.is-style-useful-multicolumn li {
+	padding-left: 0 !important;
+}
+
+/**
+ * No Markers List
+ */
+.is-style-useful-no-markers,
+.is-style-useful-no-markers li {
+	padding-left: 0 !important;
+	list-style: none !important;
+}
+
+/**
+ * Button Only File Block
+ */
+.is-style-useful-button-only a:not(.wp-block-file__button) {
+	display: none !important;
+}
+.is-style-useful-button-only .wp-block-file__button {
+	margin-left: 0 !important;
+}
