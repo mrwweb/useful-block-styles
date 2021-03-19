@@ -1,0 +1,10 @@
+{
+  "name": "wpsea/useful-block-styles",
+  "description": "A simple plugin to register Block Styles that you'd want on any site with the WordPress block editor. Includes Multicolumn and marker-less lists and Button-only File block.",
+  "require": {},
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5",
+    "wp-coding-standards/wpcs": "^2.2",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7"
+  }
+}
