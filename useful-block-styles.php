@@ -18,15 +18,15 @@ namespace WPSea\BlockStyles;
  */
 function get_block_styles() {
 
-	$block_styles = [
-		'core/list' => [
+	$block_styles = array(
+		'core/list' => array(
 			'Multicolumn',
 			'No Markers',
-		],
-		'core/file' => [
+		),
+		'core/file' => array(
 			'Button Only',
-		],
-	];
+		),
+	);
 
 	return apply_filters( 'wpsea_block_styles', $block_styles );
 
@@ -40,17 +40,18 @@ function register_block_styles() {
 
 	$block_styles = get_block_styles();
 
-	foreach( $block_styles as $block => $styles ) {
+	foreach ( $block_styles as $block => $styles ) {
 
-		foreach( $styles as $style ) {
+		foreach ( $styles as $style ) {
 
-			register_block_style( $block, [
-				'name' => 'useful-' . sanitize_title_with_dashes( $style ),
-				'label' => esc_html( $style ),
-			] );
-
+			register_block_style(
+				$block,
+				array(
+					'name'  => 'useful-' . sanitize_title_with_dashes( $style ),
+					'label' => esc_html( $style ),
+				)
+			);
 		}
-
 	}
 
 }
@@ -63,9 +64,9 @@ function front_end_assets() {
 
 	wp_enqueue_style(
 		'useful-block-styles',
-		plugin_dir_url(__FILE__) . 'css/useful-block-styles.css',
-		[],
-		filemtime( plugin_dir_path(__FILE__) . 'css/useful-block-styles.css' ),
+		plugin_dir_url( __FILE__ ) . 'css/useful-block-styles.css',
+		array(),
+		filemtime( plugin_dir_path( __FILE__ ) . 'css/useful-block-styles.css' ),
 	);
 
 }
@@ -78,9 +79,9 @@ function block_editor_assets() {
 
 	wp_enqueue_style(
 		'useful-block-styles-editor-styles',
-		plugin_dir_url(__FILE__) . 'css/useful-block-styles-editor-styles.css',
-		[],
-		filemtime( plugin_dir_path(__FILE__) . 'css/useful-block-styles-editor-styles.css' )
+		plugin_dir_url( __FILE__ ) . 'css/useful-block-styles-editor-styles.css',
+		array(),
+		filemtime( plugin_dir_path( __FILE__ ) . 'css/useful-block-styles-editor-styles.css' )
 	);
 
 }
