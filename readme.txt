@@ -1,5 +1,5 @@
 === Useful Block Styles ===
-Contributors: mrwweb
+Contributors: mrwweb, rtvenge
 Tags: comments, spam
 Requires at least: 5.0
 Tested up to: 5.7
