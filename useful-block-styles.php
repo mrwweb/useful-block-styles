@@ -19,6 +19,9 @@ namespace WPSea\BlockStyles;
 function get_block_styles() {
 
 	$block_styles = array(
+		'core/heading' => array(
+			'Screen Reader Text'
+		),
 		'core/list' => array(
 			'Multicolumn',
 			'No Markers',
