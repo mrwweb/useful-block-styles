@@ -65,7 +65,7 @@ function front_end_assets() {
 	wp_enqueue_style(
 		'useful-block-styles',
 		plugin_dir_url( __FILE__ ) . 'css/useful-block-styles.css',
-		array( 'wp-block-styles' ),
+		array( 'wp-block-library' ),
 		filemtime( plugin_dir_path( __FILE__ ) . 'css/useful-block-styles.css' ),
 	);
 
