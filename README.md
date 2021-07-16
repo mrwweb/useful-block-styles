@@ -1,10 +1,12 @@
 ## Intentions
 
-- Provide super common block styles that you'd want on 90%+ of sites you build.
+- Provide super common block styles for text-related blocks that you'd want on 90%+ of sites you build.
 - Put this in the plugin repository for push updates to any site.
 
 ## Block Styles So Far
 
+- Heading
+	- Screen Reader Text
 - List Block
 	- No Markers
 	- Responsive Multiple Columns
@@ -25,15 +27,10 @@ All decisions up for discussion!
 ## Tested so far
 - Twenty Twenty
 - Twenty Twenty One
+- Michelle
 
 ## Other Ideas for Consideration
 
-- Group Block
-	- Grid Container
-- Columns
-	- No Gap
-	- Full-height contents
-	- Button at bottom
 - _Looking forward to more!_
 
 ## Contribution
