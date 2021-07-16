@@ -6,7 +6,13 @@
  * Screen Reader Text Headings
  */
 .is-style-useful-screen-reader-text {
-	opacity: .55;
+	opacity: .5;
+	transition: opacity .15s;
+}
+
+.is-style-useful-screen-reader-text:hover,
+.is-style-useful-screen-reader-text:focus {
+	opacity: 1;
 }
 
 .is-style-useful-screen-reader-text::before {
