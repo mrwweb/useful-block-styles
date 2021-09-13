@@ -47,12 +47,13 @@
  */
 .is-style-useful-multicolumn {
 	padding-left: 0 !important;
-	column-width: 9em !important;
+	column-width: 10em !important;
 	column-gap: 1em !important;
 }
 .is-style-useful-multicolumn li {
 	padding-left: 0 !important;
 	margin-left: 0 !important;
+	break-inside: avoid;
 }
 
 /**
