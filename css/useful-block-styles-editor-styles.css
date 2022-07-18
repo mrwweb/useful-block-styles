@@ -72,7 +72,7 @@
 /**
  * Button Only File Block
  */
-.is-style-useful-button-only .wp-block-file__textlink {
+.is-style-useful-button-only .wp-block-file__content-wrapper > a:first-child {
 	display: none !important;
 }
 .is-style-useful-button-only .wp-block-file__button-richtext-wrapper {
