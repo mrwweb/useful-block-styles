@@ -78,3 +78,29 @@
 .is-style-useful-button-only .wp-block-file__button-richtext-wrapper {
 	margin-left: 0 !important;
 }
+
+/**
+ * Gallery Styles
+ */
+.is-style-useful-not-stretched .wp-block-image,
+.is-style-useful-centered-not-stretched .wp-block-image,
+.is-style-useful-small-logos .wp-block-image,
+.is-style-useful-small-grayscale-logos .wp-block-image {
+	flex-grow: 0 !important;
+}
+
+.is-style-useful-centered-not-stretched .wp-block-image,
+.is-style-useful-small-grayscale-logos .wp-block-image img {
+	margin: auto !important;
+}
+
+.is-style-useful-small-logos .wp-block-image,
+.is-style-useful-small-grayscale-logos .wp-block-image {
+	max-width: 175px !important;
+	margin: auto !important;
+	padding: 1em !important;
+}
+
+.is-style-useful-small-grayscale-logos .wp-block-image img {
+	filter: grayscale(100%) !important;
+}
