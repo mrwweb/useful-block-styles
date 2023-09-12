@@ -3,7 +3,8 @@
 /**
  * Plugin Name:     Useful Block Styles
  * Description:     A simple plugin to register Block Styles that you'd want on any site with the WordPress block editor. Includes Multicolumn and marker-less lists and Button-only File block.
- * Author:          Mark Root-Wiley (So far)
+ * Author:          Mark Root-Wiley, Ryan Tvenge
+ * Plugin URI: 		https://github.com/mrwweb/useful-block-styles
  * Text Domain:     useful-block-styles
  * Version:         0.3.0
  *
