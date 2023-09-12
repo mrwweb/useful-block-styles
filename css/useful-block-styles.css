@@ -21,12 +21,14 @@
 /**
  * Multicolumn List Block
  */
-.is-style-useful-multicolumn {
+.is-style-useful-multicolumn,
+.is-style-useful-multicolumn-no-markers {
 	padding-left: 0 !important;
 	column-width: 10em !important;
 	column-gap: 1em !important;
 }
-.is-style-useful-multicolumn li {
+.is-style-useful-multicolumn li,
+.is-style-useful-multicolumn-no-markers li {
 	padding-left: 0 !important;
 	margin-left: 0 !important;
 	break-inside: avoid;

@@ -6,7 +6,7 @@
  * Author:          Mark Root-Wiley, Ryan Tvenge
  * Plugin URI: 		https://github.com/mrwweb/useful-block-styles
  * Text Domain:     useful-block-styles
- * Version:         0.3.0
+ * Version:         0.3.1
  *
  * @package         Useful_Block_Styles
  */
