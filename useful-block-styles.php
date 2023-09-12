@@ -5,7 +5,7 @@
  * Description:     A simple plugin to register Block Styles that you'd want on any site with the WordPress block editor. Includes Multicolumn and marker-less lists and Button-only File block.
  * Author:          Mark Root-Wiley (So far)
  * Text Domain:     useful-block-styles
- * Version:         0.2.0
+ * Version:         0.3.0
  *
  * @package         Useful_Block_Styles
  */
@@ -25,8 +25,9 @@ function get_block_styles()
 			'Screen Reader Text'
 		),
 		'core/list' => array(
-			'Multicolumn',
 			'No Markers',
+			'Multicolumn',
+			'Multicolumn No Markers'
 		),
 		'core/file' => array(
 			'Button Only',

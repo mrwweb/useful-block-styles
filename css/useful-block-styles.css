@@ -36,12 +36,15 @@
  * No Markers List
  */
 .is-style-useful-no-markers,
-.is-style-useful-no-markers li {
+.is-style-useful-no-markers li,
+.is-style-useful-multicolumn-no-markers,
+.is-style-useful-multicolumn-no-markers li {
 	padding-left: 0 !important;
 	list-style: none !important;
 }
 
-.is-style-useful-no-markers li {
+.is-style-useful-no-markers li,
+.is-style-useful-multicolumn-no-markers li {
 	margin-left: 0 !important;
 }
 
@@ -78,7 +81,7 @@
 
 .is-style-useful-small-grayscale-logos .wp-block-image img {
 	filter: grayscale(100%) !important;
-	transition: filter .25s !important;
+	transition: filter 0.25s !important;
 }
 
 .is-style-useful-small-grayscale-logos a:hover img,
