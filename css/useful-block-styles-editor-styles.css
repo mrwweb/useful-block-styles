@@ -6,8 +6,8 @@
  * Screen Reader Text Headings
  */
 .is-style-useful-screen-reader-text {
-	opacity: .5;
-	transition: opacity .15s;
+	opacity: 0.5;
+	transition: opacity 0.15s;
 }
 
 .is-style-useful-screen-reader-text:hover,
@@ -28,7 +28,7 @@
 	content: "\f530";
 }
 
-@media( min-width: 1200px ) {
+@media (min-width: 1200px) {
 	.is-style-useful-screen-reader-text {
 		/* Center align icon with text regardless of size*/
 		display: flex;
@@ -44,12 +44,14 @@
 /**
  * Multicolumn List Block
  */
-.is-style-useful-multicolumn {
+.is-style-useful-multicolumn,
+.is-style-useful-multicolumn-no-markers {
 	padding-left: 0 !important;
 	column-width: 10em !important;
 	column-gap: 1em !important;
 }
-.is-style-useful-multicolumn li {
+.is-style-useful-multicolumn li,
+.is-style-useful-multicolumn-no-markers li {
 	padding-left: 0 !important;
 	margin-left: 0 !important;
 	break-inside: avoid;
@@ -59,12 +61,15 @@
  * No Markers List
  */
 .is-style-useful-no-markers,
-.is-style-useful-no-markers li {
+.is-style-useful-multicolumn-no-markers,
+.is-style-useful-no-markers li,
+.is-style-useful-multicolumn-no-markers li {
 	padding-left: 0 !important;
 	list-style: none !important;
 }
 
-.is-style-useful-no-markers li {
+.is-style-useful-no-markers li,
+.is-style-useful-multicolumn-no-markers li {
 	margin-left: 0 !important;
 }
 
